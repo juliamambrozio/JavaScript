@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Lógicos</title>
+    <script>
+    
+    //true && true && false = false (retorna falso se tiver pelo menos um false)
+    //true || true || false = true (retorna falso se tudo for false)
+
+     /* if(!(4 == 2 )){
+        document.write('Verdadeiro')
+     } else{
+        document.write('Falso')
+     } */
+
+     //&&: "E"
+     //||: "OU"
+     //!: INVERTE VALOR (false -> true, true -> false)
+
+
+     var nota = prompt('Digite sua nota:') //tipo string
+     var media = 7 //tipo number
+
+     var falta = prompt('Digite a quantidade de faltas:') //tipo string
+     var faltas_maximas = 15 //tipo number
+
+     if(nota >= media && falta <= faltas_maximas){
+        document.write('Aprovado')
+     } else {
+        document.write('Reprovado')
+     }
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
