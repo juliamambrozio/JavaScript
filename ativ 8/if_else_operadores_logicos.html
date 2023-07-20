@@ -26,11 +26,16 @@
      var falta = prompt('Digite a quantidade de faltas:') //tipo string
      var faltas_maximas = 15 //tipo number
 
-     if(nota >= media && falta <= faltas_maximas){
+     /* if(nota >= media && falta <= faltas_maximas){
         document.write('Aprovado')
      } else {
         document.write('Reprovado')
-     }
+     } */
+
+     //---- OPERADOR TERNÁRIO: forma mais simples, porém limitado
+
+     var resultado =  (nota >= media && falta <= faltas_maximas) ? 'Aprovado' : 'Reprovado'
+     document.write(resultado)
 
     </script>
 
