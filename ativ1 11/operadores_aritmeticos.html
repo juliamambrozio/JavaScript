@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Aritméticos</title>
+    <script>
+        var num1 = prompt('Digite o segundo número:')
+        var num2 = prompt('Digite o segundo número:')
+
+        //sobrescevendo a var com precedência e mudando seu tipo
+        num1 = parseInt(num1)
+        num2 = parseInt(num2)
+
+        //SOMA
+        document.write('A soma entre '+ num1 +' e '+ num2 +' é:' + (num1 + num2) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+
+        //SUBTRAÇÃO
+        document.write('A subtração entre '+ num1 +' e '+ num2 +' é:' + (num1 - num2) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+
+        //MULTIPLICAÇÃO
+        document.write('A multiplicação entre '+ num1 +' e '+ num2 +' é:' + (num1 * num2) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+
+        //DIVISÃO
+        document.write('A divisão entre '+ num1 +' e '+ num2 +' é:' + (num1 / num2) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+
+        //MÓDULO (resultado do resto da divisão)
+        document.write('O módulo entre '+ num1 +' e '+ num2 +' é:' + (num1 % num2) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+
+        //INCREMENTO PRÉ (valor atualiza antes, dentro da instrução) e PÓS (valor atualiza depois da execução)
+        document.write('O incremento de '+ num1 +' é:' + (++num1) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+        document.write('O incremento de '+ num2 +' é:' + (num2++) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+        document.write('Mostrando pós na prática de 2:' + num2 + '<br />') //Representaçãodo PÓS, valor aparece depois
+
+        //DECREMENTO PRÉ (valor atualiza antes, dentro da instrução) e PÓS (valor atualiza depois da execução)
+        document.write('O decremento de '+ num1 +' é:' + (--num1) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+        document.write('O decremento de '+ num2 +' é:' + (num2--) + '<br />') //(): faz com que faça a soma primeiro antes da concatenação
+    
+        document.write( 'Mostrando pós na prática de 3:' + num2 + '<br />') //Representaçãodo PÓS, valor aparece depois
+        //Exibição erra de num2, pois no incremento alteramos seu valor inicial
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
