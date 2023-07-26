@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <script>
+        //void: realizam processamaento e não fornecesse retorno para a chamada
+        //retorno: retorna um parâmetro pra a chamada
+        function calcularAreaTerreno (largura, comprimento){ //execução de tarefas, a leitura do JS começa pela funções, então não precisa seguir uma ordem
+
+            //logica
+            var area = largura * comprimento
+
+            return area 
+
+        }
+
+        var largura = prompt('Digite a largura:') //strings
+        var comprimento = prompt('Digite o comprimento:') //strings
+
+        var largura = parseInt(largura)
+        var comprimento = parseInt(comprimento)
+
+        var area = calcularAreaTerreno(largura, comprimento)
+
+        document.write('O terreno possui ' + calcularAreaTerreno(largura, comprimento) + ' metros quadrados') //a ordem é fundamental para o cálculo
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
