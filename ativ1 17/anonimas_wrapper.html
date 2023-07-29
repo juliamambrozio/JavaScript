@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Anônimas e técnica de Wrapper</title>
+    <script>
+        //variaveis recebendo uma função, wrapper
+        var exibirSaudacao = function(nome){
+            document.write('Olá ' + nome + ', tudo bem?')
+        }
+
+        exibirSaudacao('Júlia') //dando valor da var
+
+        //sem a técnica Wrapper
+        function exibirNome(){
+            var usuario = 'Guilherme'
+            document.write('Olá ' + usuario + ', tudo bem?')
+        }
+
+        exibirNome()
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
