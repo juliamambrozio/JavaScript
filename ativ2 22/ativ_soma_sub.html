@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma ou Subtração</title>
+    <script>
+        var num1 = prompt('Informe o primeiro número:')
+        var operacao = prompt('Operação de soma ou subtração?')
+        var num2 = prompt('Informe o segundo número:')
+
+        num1 = parseFloat(num1)
+        num2 = parseFloat(num2)
+
+        function operacaoDoisNumeros(operacao, num1, num2){
+            
+            if (operacao === 'soma'){
+            var resultado = num1 + num2
+            } else {
+            var resultado = num1 - num2
+            }
+
+            return resultado
+        }
+
+        document.write('o resultado é: ' + operacaoDoisNumeros(operacao, num1, num2))
+   
+
+        
+
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
