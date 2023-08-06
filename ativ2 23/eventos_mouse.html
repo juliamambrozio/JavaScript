@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <script>
+        /* 
+        onclick: quando clica
+        ondblclick: quando é clicado duas vezes
+        onmouseup: quando o click sobre o elemento é liberado
+        onmouseover: quando o cursor sobrepõe o elemento
+        onmouseout: quando o mouse sai do elemento
+        */
+
+       function acao(){
+        alert('Evento disparado')
+       }
+
+       function acao1(){
+        alert('clicado')
+       }
+
+       function acao2(){
+        alert('mouse saiu do elemento')
+        }
+    </script>
+</head>
+<body>
+    <div onclick="acao()" style="background: #ccc; height: 150px; width: 150px;">onclick</div>
+    <div ondblclick="acao()" style="background: #ff0000; height: 150px; width: 150px;">ondblclick</div>
+    <div onmouseup="acao()" style="background: #2200e0; height: 150px; width: 150px;">onmouseup</div>
+    <div onmouseover="acao()" style="background: #ff00bf; height: 150px; width: 150px;">onmouseover</div>
+    <div onmouseout="acao()" style="background: #ffd000; height: 150px; width: 150px;">onmouseout</div>
+    <!-- PODE SER USADO MAIS DE UM EVENTO -->
+    <div onclick="acao1()" onmouseout="acao2()" style="background: #ccc; height: 150px; width: 150px;"></div>
+</body>
+</html>
