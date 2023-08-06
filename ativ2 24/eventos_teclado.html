@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Teclado</title>
+    <script>
+        /* 
+        onkeydown: quando pressiona (apenas depois da função o caracter aparecerá na tela)
+        onkeyup: quando pressiona (aparece durante a funçao)
+        onkeypress: quando mantém a tecla pressionada (apenas quando a tecla tem caracter)
+        */
+       function acao1(){
+        alert('Evento disparado')
+       }
+
+       function acao2(){
+        alert('Evento 2 disparado')
+       }
+
+       function acao3(){
+        alert('Evento 3 disparado')
+       }
+    </script>
+</head>
+<body>
+    <input onkeydown="acao1()" type="text" name="" id="" placeholder="onkeydown">
+    <input onkeyup="acao2()" type="text" name="" id="" placeholder="onkeyup">
+    <input onkeypress="acao3()" type="text" name="" id="" placeholder="onkeypress">
+</body>
+</html>
