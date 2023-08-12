@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando valores input</title>
+</head>
+<body>
+    <input type="text" id="entrada" placeholder="Digite um caracter aqui" onkeyup="distribuiCaracter()"> <!-- onkeyup: pega o elemento digitado -->
+    <hr>
+    <span>Letras</span>
+    <input type="text" disabled id="letras">
+
+    <span>Números</span>
+    <input type="text" disabled id="num">
+
+    <script>
+
+    function distribuiCaracter(){
+        //selecionar o valor digitado
+        var caracter = document.getElementById('entrada').value //value: pega o valor do campo
+        //limpar campo de digitaçao
+        document.getElementById('entrada').value = '' //limpa a caixa
+
+        //limpar espaços em branco
+        caracter.trim() 
+
+        switch(caracter){
+            case '0':
+            case '1':
+            case '2':
+            case '3':
+            case '4':
+            case '5':
+            case '6':
+            case '7':
+            case '8':
+            case '9':
+            //adcionar caracter no campo
+            document.getElementById('num').value = caracter
+            break;
+            default: 
+            document.getElementById('letras').value = caracter
+
+        }
+    }
+    </script>
+</body>
+</html>
