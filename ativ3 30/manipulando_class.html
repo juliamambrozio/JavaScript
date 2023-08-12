@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulanado classes de elementos</title>
+    <style>
+        .estilo1{
+            background-color: red;
+            color: white;
+            width: 200px;
+        }
+
+        .estilo2{
+            width: 300px;
+            height: 200px;
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="mensagem" class="estilo1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error, inventore nihil eaque maxime repudiandae distinctio provident nam expedita, molestias deleniti. Placeat aut excepturi in quo et perspiciatis beatae autem.
+    </div>
+    <hr>
+    <button type="button" onclick="modificaClasse()"> Aplicar Classe</button>
+
+    <script>
+        function modificaClasse(){
+            document.getElementById('mensagem').className = 'estilo2' //mudando a class
+        }
+        
+    </script>
+</body>
+</html>
