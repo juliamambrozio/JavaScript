@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando estilos</title>
+</head>
+<body>
+    
+    <h1>Manipulando elementos</h1>
+
+    <input type="button" value="Vermelho" onclick="modificaEstilo('#FF0000', '200px')">
+    <input type="button" value="Verde" onclick="modificaEstilo('#00FF00', '150px', '20px')">
+    <input type="button" value="Azul" onclick="modificaEstilo('#0000FF', '500px', '10px')">
+
+    <hr>
+
+    <div style="border: 1px solid gray; width: 100px; height: 100px;" id="quadrado"></div>
+
+    <script>
+        function modificaEstilo(corFundo, l, a){
+            document.getElementById('quadrado').style.backgroundColor = corFundo //pega a cor declarada no parâmetro do onclick
+            document.getElementById('quadrado').style.width = l //pega a proporção declarada no parâmetro
+            document.getElementById('quadrado').style.height = a //pega a proporção declarada no parâmetro
+        }
+
+    </script>
+
+</body>
+</html>
