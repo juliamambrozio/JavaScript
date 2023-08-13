@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Eventos e Manipulação</title>
+    <script>
+
+        function mudaCor(){
+            document.getElementById('caixa_texto').style.backgroundColor = "yellow"
+        }
+
+        function voltaCor(){
+
+            var valor_caixa = document.getElementById('caixa_texto').value
+
+            if(valor_caixa.length < '3'){
+                document.getElementById('caixa_texto').style.background = "red"
+
+            }else{
+                document.getElementById('caixa_texto').style.background = "green"
+
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" name="caixa" id="caixa_texto" onfocus="mudaCor()" onblur="voltaCor()">
+   
+   
+</body>
+</html>
