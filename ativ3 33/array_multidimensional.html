@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ptb-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Multidimensional</title>
+    <script>
+        //Um Array dentro de outro
+        var lista_coisas = Array()
+        //declarando duas arrays dentro da array "lista_coisas" (Arrays apontam para Arrays)
+        lista_coisas['frutas'] = Array()
+        lista_coisas['frutas'][0] = 'Banana'
+        lista_coisas['frutas'][1] = 'Morango'
+        lista_coisas['frutas'][2] = 'Pera'
+
+        lista_coisas['pessoas'] = Array()
+        lista_coisas['pessoas']['a'] = 'Homem'
+        lista_coisas['pessoas']['b'] = 'Mulher'
+
+        console.log(lista_coisas['frutas'][0]) //para imprimir deve fazer o caminho correto
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
