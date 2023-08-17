@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenação de Elementos</title>
+    <script>
+        var lista_frutas = Array()
+        lista_frutas[0] = 'Maçã'
+        lista_frutas[1] = 'Uva'
+        lista_frutas[2] = 'Banana'
+        lista_frutas[3] = 'Morango'
+        console.log(lista_frutas.sort()) //organização alfanumérica
+
+        var lista_num = Array()
+        lista_num[0] = 2
+        lista_num[1] = '1'
+        lista_num[2] = 19
+        lista_num[3] = '0' //o js identifica que é um num
+
+        console.log(lista_num.sort(ordenaNumeros)) //organização de números
+
+        function ordenaNumeros(a, b){
+            return a - b; //um número menos o outro, se dêr menor que 0 ele vem primeiro, ex: 1 - 19 = -18, então o 1 vem primeiro
+        }
+        
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
