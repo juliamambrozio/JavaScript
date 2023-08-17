@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removendo e Incluindo</title>
+    <script>
+        var lista_frutas = Array()
+        lista_frutas['frutas'] = Array()
+        lista_frutas['frutas'].push('Morango') //para multidimensional
+
+        lista_frutas['pessoas'] = []
+        lista_frutas['pessoas'].push('Gui')
+
+        //incluir no começo do array
+        lista_frutas['frutas'].unshift('Pera')
+        //incluir no final do array
+        lista_frutas.push('Morango')
+        
+        
+        //para excluir um elemento no começo: 
+        lista_frutas.shift()
+        //para excluir um elemento no final: 
+        lista_frutas.pop()
+        
+
+        console.log(lista_frutas)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
