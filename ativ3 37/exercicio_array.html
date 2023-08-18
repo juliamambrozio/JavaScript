@@ -4,7 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício de Array</title>
+    <script>
+    var objetos = Array('Cadeira', 'Impressora', 'Garfo')
+
+    function adicionaElemento(){
+       var valor_caixa = document.getElementById('caixa_texto').value
+       
+
+        if(valor_caixa !== ''){
+        if(objetos.indexOf(valor_caixa) !== -1){
+        alert('Objeto já foi adicionado')
+        }else{
+        objetos.unshift(valor_caixa)
+        console.log(objetos) 
+        document.getElementById('caixa_texto').value = ''
+        }
+        }else{
+        alert('Informe um valor válido')
+        }
+        }  
+
+        console.log(objetos) 
+         
     
+
+
+    function ordenaElemento(){
+        console.log(objetos.sort())
+    }
+    </script>
 </head>
 <body>
     <input type="text" name="caixa" id="caixa_texto">
