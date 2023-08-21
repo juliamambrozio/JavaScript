@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percorrendo elementos utilizando for</title>
+    <script>
+        var lista_frutas = Array()
+        lista_frutas[0] = 'Banana'
+        lista_frutas[1] = 'Maçã'
+        lista_frutas[2] = 'Morango'
+        lista_frutas[3] = 'Uva'
+        lista_frutas[4] = 'Pera'
+        console.log(lista_frutas)
+
+        for(var x = 0; x < lista_frutas.length; x++){
+            document.write(lista_frutas[x] + '<br />')
+        }
+
+        document.write('<br />' + '<hr />')
+        var x = 1
+        var y = 1
+        while(x <= 10){
+            var y = 1
+            while(y <= 10){
+                document.write(x + ' x ' + y + ' = ' + (x * y) + '<br />')
+            if(y === 10){
+                break;
+            }
+
+            y++
+            }
+            document.write('<hr />')
+            if(x === 10){
+                break;
+            }
+            x++
+           
+        }
+       
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
