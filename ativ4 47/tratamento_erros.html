@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de erros</title>
+    <script>
+
+    throw new Error('Houve um erro, mas não se preocupe, estamos trabalhando nisso agora') //pode ser dentro do catch tbm (lança erro)
+    //netflix
+    var video = Array()
+    video[1] = Array()
+    video[1]['nome'] = 'Jujutsu Kaisen'
+    video[1]['categoria'] = 'Anime'
+
+    function getVideo(video){
+        //lógica
+        //http
+        try{ //tente
+        console.log(video[0]['nome'])
+        }catch(e){ //pega e trata o erro (pode ser qualquer nome de var)
+        console.log('Agora sim podemos tratar esse erro')
+        } finally{ //finaliza
+        console.log('Sempre passa por aqui (try / catch)')
+        }
+        console.log('A aplicação não morreu')
+    }
+
+    function tratarErro(e){
+        //registra erro no servidor
+        console.log(e)
+    }
+
+    getVideo(video)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
