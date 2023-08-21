@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foreach</title>
+    <script>
+        var listaFuncionarios = ['Viviane', 'Rosangela', 'Miguel', 'Lucas', 'Fernanda']
+        console.log(listaFuncionarios)
+        /*
+        //função do prototype do objeto, funciona a partir de 0 e em números
+        listaFuncionarios.forEach(function(valor, indice, array) { //valor, indice, array
+            //lógica
+            console.log('indice: ' + indice + ' | valor: ' + valor +  ' | array: ' + array)
+            if(valor == 'Lucas'){
+                array[indice] = 'Um novo valor'
+            }
+            
+        })
+
+        console.log(listaFuncionarios)
+         */
+        /*
+         listaFuncionarios.forEach(function(valor, indice){
+            console.log(indice)
+
+         })
+         */
+
+         //WRAPPER
+         var f = function(valor, indice){
+            console.log(valor, indice)
+         }
+
+         listaFuncionarios.forEach(f)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
