@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parâmetros de variáveis</title>
+    <script>
+    /*function soma(a, b){
+        //b = b === undefined ? 0 : b (dica: uma forma de não dar NaN)
+        return a + b
+    }
+    console.log(soma(7, 7))
+    console.log(soma(7, 7, 9, 15)) //mesmo passando mais parâmetros, ele não dá um erro, ele apenas ignora os outros (diferente do PHP e Java, que precisam de uma ordem e uma quantidade igual da informado no ínicio)
+    console.log(soma(7)) //7 + undefined = not a number (NaN)
+    */
+   function soma(){
+    var resultado = 0
+    console.log(arguments)
+    for(var i in arguments){
+        resultado += arguments[i] //arguments: array que pega todos os parâmetros atribuídos na variável
+    }
+    return resultado
+   }
+
+   console.log(soma(7, 3, 9,10, 11))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
