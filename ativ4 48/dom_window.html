@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM WINDOW</title>
+    <script>
+        var janela 
+        function abrirPopUp(){
+            janela = window.open('../ativ4 47/tratamento_erros.html ', 'nova janela', 'width=200, height=100')
+        }
+
+        function fecharPopUp(){
+            janela.close()
+        }
+
+        function printPopUp(){
+            janela = window.print()
+        }
+    </script>
+</head>
+<body>
+    <button onclick="abrirPopUp()">
+        Abrir janela
+    </button>
+
+    <button onclick="fecharPopUp()">
+        Fechar janela
+    </button>
+
+    <button onclick="printPopUp()">
+        Print janela
+    </button>
+</body>
+</html>
