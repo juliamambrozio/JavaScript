@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM SCREEN</title>
+    <script>
+        //availHeight e availWidth: não inclui a barra de ferramentas
+        //Height e Width: incluem a barra de tarefas
+
+        var altura = window.screen.availHeight
+        var largura = window.screen.availWidth
+        document.write('Altura do navegador é ' + altura + '<br />') //potencial de altura e largura
+        document.write('Largura do navegador é ' + largura ) //potencial de altura e largura
+
+        if(largura < 500){
+            document.write('Lógica para impressão do menu versão mobile')
+        }else{
+            document.write('Lógica para impressão do menu versão web') 
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
