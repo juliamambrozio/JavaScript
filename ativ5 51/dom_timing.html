@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM TIMING</title>
+    <script>
+        //setTimeout: Executa uma vez a ação.
+        //setInterval: Executa de forma indeterminada.
+
+        //setTimeout(function() {document.write('Teste <br />')} , 2000)
+
+        var i = 5
+
+        var x = setInterval(function() {
+            document.write(i + '<br />')
+            i --
+
+            if(i === 0){
+                //window.location.reload() //após 5 segundos atualiza a página (ex: atualizar tabelas em tempo real)
+                clearInterval(x) //breca a execução (pode ser usado no Timeout também)
+            }
+        } , 1000) //imprime várias vezes
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
