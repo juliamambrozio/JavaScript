@@ -1,0 +1,76 @@
+APP CALCULADORA: BootStrap, onclick, function, limpar campo, eval, fazer a 
+conta
+
+APP GAME MATA MOSQUITO: Mexendo com o tamanho da tela, posição randômica, 
+atribuindo estilos e adicionando classe, intervalo de tempo de exibição 
+aleatória, tamanho e lados aleatórios, removendo id, function de click 
+para remover elemento, function para mudar as imagens quando não clicar, 
+location, inserindo cronômetro, limpando function, selecionando dificuldade 
+do jogo, pegando valor da url e passando para outra página para determinar 
+a dificuldade do tempo.
+--------------------------------------------------------------
+JavaScript
+
+-ativ 1: Inclusão, precedência (ordem dos códigos)
+-ativ 2: Variáveis (explicação)
+-ativ 3: Concatenação (acrescentando variáveis às strings)
+-ativ 4: Null e Undefined, alterando valores de variáveis
+-ativ 5: Desafio A-B-C (armazenamento de dados e inversão deles)
+-ativ 6: If/Else (operadores condicionais)
+-ativ 7: Casting (converter o tipo da variável)
+-ativ 8: Operadores Lógicos (&&, || e !), operador ternário (forma mais simples
+de operadores condicionais)
+-ativ 9: Exibição de faixa etária (Operadores condicionais e lógicos)
+-ativ 10: Switch Case (casos, passando string para number)
+-ativ 11: Operações aritméticas (soma, sub, mult, divisão, módulo, incremento 
+e decremento pré e pós, mudando tipo da varável com precedência)
+-ativ 12: Forma resumida na atribuição de valores com operações aritméticas
+-ativ 13: Cálculo de índice de massa corporal (variáveis, mudança do tipo da 
+var, cálculo, condição e exibição)
+-ativ 14: Funções (sub programas, void e return)
+-ativ 15: Flexibilidade de parâmetros (ordem e quantidade não precisam ser 
+iguais às informadas no ínicio, diferente do PHP)
+-ativ 16: Escopos de variáveis: global (todo o script), função (conteúdo dentro
+da função) e bloco (instruções de comandos, ex: if/else, switch), 
+explicações sobre as regras no arquivo!!
+-ativ 17: Método Wrapper (var declaradas com funções)
+-ativ 18: Callback (a função é passada para outra função como um parâmetro)
+-ativ 19: Funções nativas para manipular strings (length, charAt(), indexOf(),
+replace, substr, toLowerCase, toUpperCase, trim), explicações no arquivo
+-ativ 20: Funções nativas para matemática (arredondamento, número aleatório)
+-ativ 21: Datas, acrescentando e removendo dias, meses e anos, diferença entre 
+dias
+-ativ 22: Atividade de soma de dois números (condições, funções, 
+retornar valor e imprimir resultado da função)
+-ativ 23: Eventos de mouse (onclick, ondblclick, onmouseup, onmouseover, 
+onmouseup)
+-ativ 24: Eventos de teclado (onkeydown, onkeyup, onkeypress)
+-ativ 25: Eventos de janela (onresize, onscroll)
+-ativ 26: Eventos de Formulários (onfocus, onblur, onchange)
+-ativ 27: Selecionando elementos da página (getElementById, 
+getElementsByTagName, getElementsByClassName, getElementsByName)
+-ativ 28: Manipulando valores (colocando ao input que pertence)
+-ativ 29: Alterando cor de fundo e tamanho com onclick
+-ativ 30: Alterando class
+-ativ 31: Muda cor de acordo com a quantidade de caracter 
+-ativ 32: Array Básico (lista de variáveis em uma única variável)
+-ativ 33: Array multidimensional (Array dentro de Array)
+-ativ 34: Array (Inclusão (push e unshift) e exclusão(pop e shift))
+-ativ 35: Array pesquisa
+-ativ 36: Ordenação de Elementos (organizando conteúdo)
+-ativ 37: Exercício de Array (Adicionando elementos através do input 
+e ordenando)
+-ativ 38: Estrutura de repetição While (quebra de repetiçaõ)
+-ativ 39: Do while (condição antes da repetição)
+-ativ 40: For (var; condição; controle)
+-ativ 41: Listando elementos de Array com While
+-ativ 42: Laços encadeados (Tabuada)
+-ativ 43: For in (permite que a gente navegue os Arrays)
+-ativ 44: Foreach (valor, indice, array)
+-ativ 45: Atividade for e while
+-ativ 46: Function e Array (Arguments)
+-ativ 47: Tratamento de erros (throw, try, catch, finally)
+-ativ 48: Window (Abrir, fechar janela e imprimir tela do Google)
+-ativ 49: Screen (altura e largura do Browser, responsividade)
+-ativ 50: Location (Forçar redirecionamento e atualizar página)
+-ativ 51: Timing (tempo de exibição de conteúdos)
